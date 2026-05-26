@@ -1,0 +1,40 @@
+# Setup Guide
+
+## 1. Launch EC2 instance
+- Amazon Linux
+- Open ports: 22, 80, 5000
+
+---
+
+## 2. SSH into server
+ssh -i key.pem ec2-user@YOUR-IP
+
+---
+
+## 3. Install Python
+sudo yum install python3 -y
+
+---
+
+## 4. Install Flask
+pip3 install flask
+
+---
+
+## 5. Run API
+python3 app.py
+
+---
+
+## 6. Install NGINX
+sudo yum install nginx -y
+
+---
+
+## 7. Start NGINX
+sudo systemctl start nginx
+
+---
+
+## 8. Deploy HTML
+sudo cp website/index.html /usr/share/nginx/html/index.html

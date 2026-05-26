@@ -1,0 +1,12 @@
+# Troubleshooting
+
+## Issue: Website not loading
+- Check EC2 security group (port 80 open)
+- Ensure nginx is running:
+  sudo systemctl status nginx
+
+---
+
+## Issue: API not reachable
+- Ensure port 5000 is open in security group
+- Ensure Flask app is running
