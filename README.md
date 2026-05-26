@@ -1,3 +1,5 @@
+Architecture Diagram
+![image alt](https://github.com/teajo99/aws-hmrc-fraud-intelligence-platform/blob/ffa287577216672c54730955b8ae599b02b90565/aws-hmrc-fraud-intelligence-platform/Architecture%20Diagram.png)
 
 # HMRC Fraud Intelligence Platform (AWS EC2 + Linux + Flask + NGINX)
 
